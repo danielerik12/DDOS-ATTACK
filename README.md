@@ -12,5 +12,12 @@ _              _       _
 | |_| | |_) | (_| | (_| | ||  __/  / __/| |_| / __/| |_| |
  \__,_| .__/ \__,_|\__,_|\__\___| |_____|\___/_____|\___/
 
-$ Pakai Tema Gelap Chrome Ya Biar Jelas Gambar Ya
+$ Tulisan Ini Buka Dengan Termux Ya Dengan
+  Menekan
+
+# pkg install nano
+
+# nano README.md
+  Nanti Kelihat Jelas Tulisan Ini
+
 $ terima kasih
